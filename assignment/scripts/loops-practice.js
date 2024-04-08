@@ -37,7 +37,11 @@ console.log(i);
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-
+let countDown = 5;
+while (countDown >= 0){
+  console.log(countDown)
+  countDown--;
+}
 
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
@@ -74,3 +78,9 @@ while (count < 6){
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+
+let backCount = 10;
+while (backCount >= 5){
+console.log(backCount);
+backCount--;
+}
